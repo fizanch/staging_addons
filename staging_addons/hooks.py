@@ -11,22 +11,20 @@ app_license = "mit"
 # required_apps = []
 
 # Each item in the list will be shown as an app in the apps page
-# add_to_apps_screen = [
-# 	{
-# 		"name": "staging_addons",
-# 		"logo": "/assets/staging_addons/logo.png",
-# 		"title": "Staging Addons",
-# 		"route": "/staging_addons",
-# 		"has_permission": "staging_addons.api.permission.has_app_permission"
-# 	}
-# ]
+add_to_apps_screen = [
+	{
+		"name": "staging_addons",
+		"title": "Staging Addons",
+		"route": "/app",
+	}
+]
 
 # Includes in <head>
 # ------------------
 
 # include js, css files in header of desk.html
 # app_include_css = "/assets/staging_addons/css/staging_addons.css"
-# app_include_js = "/assets/staging_addons/js/staging_addons.js"
+app_include_js = "/assets/staging_addons/js/server_indicator.js"
 
 # include js, css files in header of web template
 # web_include_css = "/assets/staging_addons/css/staging_addons.css"
@@ -241,4 +239,3 @@ app_license = "mit"
 # default_log_clearing_doctypes = {
 # 	"Logging DocType Name": 30  # days to retain logs
 # }
-
